@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(225, 230, 240);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.h-list li {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    float: left;
+    width: 22%;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+}
+
+.h-list {
+    height: 80px;
+    margin-bottom: 50px;
+}
