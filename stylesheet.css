@@ -16,15 +16,50 @@ li {
     font-family: 'Lato', sans-serif;
     color: black;
     float: left;
-    width: 22%;
-    padding: 20px 10px;
-    margin: 10px;
-    border-radius: 8px;
-    font-size: 20px;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 30px;
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+    margin-left: 30px;
 }
 
 .h-list {
+    border-radius: 10px;
     height: 80px;
     margin-bottom: 50px;
+}
+
+
+.h-title {
+    margin: 30px;
+    font-family: "Noto Sans JP";
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 1.3px;
+    margin-left: 40px;
+}
+
+.sentence {
+    letter-spacing: 0.03em;
+    font-size: 23px;
+    margin-left: 40px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+}
+
+.space {
+    height: 30px;
+}
+
+.dan {
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #e1e6f0;
+    box-shadow:  5px 5px 20px #bfc4cc,
+                 -5px -5px 20px #ffffff;
+    margin: 30px 50px 40px 40px;
+    font-family: "Noto Sans JP";
+    font-weight: 500;
 }
