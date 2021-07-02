@@ -12,16 +12,21 @@ li {
     list-style: none;
 }
 
-.h-list li {
+.main {
+    height: 2500px;
+    margin-bottom: 30px;
+}
+
+.button {
     font-family: 'Lato', sans-serif;
     color: black;
     float: left;
     margin: 15px;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 20px;
     padding: 30px;
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .h-list {
@@ -30,6 +35,7 @@ li {
     margin-bottom: 50px;
 }
 
+/* CSS覗き込むのやめてください！！ */
 
 .h-title {
     margin: 30px;
@@ -37,8 +43,8 @@ li {
     font-weight: 700;
     font-size: 70px;
     letter-spacing: 1.3px;
-    margin-left: 40px;
 }
+
 
 .sentence {
     letter-spacing: 0.03em;
@@ -62,4 +68,18 @@ li {
     margin: 30px 50px 40px 40px;
     font-family: "Noto Sans JP";
     font-weight: 500;
+}
+
+.twitter-timeline {
+    margin-left: 40px;
+}
+
+.right {
+    float: left;
+    margin-top: 40px;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 6px 1px rgb(216, 220, 230) inset, 
+                -3px -3px 6px 1px rgba(255,255,255,0.5) inset;
 }
