@@ -51,7 +51,12 @@
     <script src="https://unpkg.com/animon@1.0.1/dist/animon.iife.js"></script>
     <script>
         Animon.animon();
-        alert ("オマ●コ〜〜♫")
+      if (document.cookie === "access"){
+          alert("あなたはこのサイトにアクセスしたことがあるので「オマ●コ〜〜♫」を見ることが出来ませ〜〜んあははっははwwwww＾＾＾＾＾＾＾");
+        } else {
+          alert("オマ●コ〜〜♫")
+        }
+        document.cookie = "access";
     </script>
 </body>
 </html>
