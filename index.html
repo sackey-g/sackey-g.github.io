@@ -10,12 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Google Fonts（ ＾ω＾）おっわり -->
-    <!-- fontawesomeとanimon -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/animon@1.0.1/dist/animon.css"/>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/hint.css@2.7.0/hint.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.1/TweenMax.min.js" integrity="sha512-CPonrVVNaBUnJ5fd+Oqh6zA9cx4gvAjz1XmjcuP5Atrg09az+vRm1O8khaiebTQ8brf6f550++WXoFOpDoHSKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
+  <!-- ポインター制御 -->
+  <div class="cursor"></div>
+  <div class="follower"></div>
+  <!-- ポインター制御 -->
     <header>
         <div class="head">
             <div class="h-list">
@@ -48,14 +53,6 @@
       <p class="right sentenceItem" data-effect="fadeInRight">（ ＾ω＾）おっこんにちは<br>スペースを埋めるための文ですよ（ ＾ω＾）おっ</p><br>
     </div>
     <script src="https://unpkg.com/animon@1.0.1/dist/animon.iife.js"></script>
-    <script>
-        Animon.animon();
-      if (document.cookie === "access"){
-          alert("あなたはこのサイトにアクセスしたことがあるので「オマ●コ〜〜♫」を見ることが出来ませ〜〜んあははっははwwwww＾＾＾＾＾＾＾");
-        } else {
-          alert("オマ●コ〜〜♫")
-        }
-        document.cookie = "access";
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
