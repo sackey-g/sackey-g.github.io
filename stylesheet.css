@@ -1,208 +1,207 @@
-/* 👇 ここからポインター制御 👇 */
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-body {
-  position: relative;
-  cursor: none;
-}
-.cursor,
-.follower {
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
-.cursor {
-  width: 8px;
-  height: 8px;
-  background-color: #000;
-  z-index: 128347;
-}
-.follower {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(253, 254, 0, 0.5);
-  z-index: 1000;
-  transition: transform ease 0.1s;
-  text-align: center;
-}
-.follower span {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
-  transform: scale(0);
-}
-.follower.is-active {
-  transform: scale(3);
-}
-.btn {
-  display: inline-block;
-  width: 160px;
-  margin: 16px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1;
-}
-.btn a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 16px;
-  background-color: #000;
-  cursor: none;
-}
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-body {
-  position: relative;
-  cursor: none;
-}
-.cursor,
-.follower {
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
-.cursor {
-  width: 8px;
-  height: 8px;
-  background-color: #000;
-  z-index: 1001;
-}
-.follower {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(253, 254, 0, 0.5);
-  z-indes: 1000;
-  transition: transform ease 0.1s;
-  text-align: center;
-}
-.follower span {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
-  transform: scale(0);
-}
-.follower.is-active {
-  transform: scale(3);
-}
-.btn {
-  display: inline-block;
-  width: 160px;
-  margin: 16px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1;
-}
-.btn a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 16px;
-  background-color: #000;
-  cursor: none;
-}
-/* 👆 ここまでポインター制御 👆 */
-
 * {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(225, 230, 240);
-}
-a {
-    color: black;
-    text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
 }
 
-li {
-    list-style: none;
+/* Twemoji de 会館　（ ＾ω＾）おっ */
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
 }
 
-.main {
-    height: 2500px;
-    margin-bottom: 30px;
+
+main {
+  height: 3000px;
+  background-image: url("img/4.jpg")
+  /*background: linear-gradient(150deg, #FC466B, #3F5EFB);*/
+  /*background-image: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));*/
+}
+
+.chinpo {
+  padding-top: 100px;
+}
+
+.box {
+  height: 2000px;
+  margin: 0px 30% 0px 30%;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.18 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 13px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.sackey {
+  padding: 25px;
+  height: 160px;
+  width: 160px;
+  float: left;
+}
+
+.ID {
+  float: left;
+}
+
+.ID h1,p {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.name {
+  font-size: 50px;
+  margin-top: 75px;
+}
+
+.namenoshita {
+  font-size: 25px;
+}
+
+.fa-solid {
+  display: inline;
+  font-size: 0.8em;
+}
+
+.explain {
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.classname-ga-omoitsukanai {
+  height: 255px;
 }
 
 .button {
-    font-family: 'Lato', sans-serif;
-    color: black;
-    float: left;
-    margin: 15px;
-    font-size: 40px;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
-    margin-left: 40px;
+  margin: 30px 0px 0px 40px;
+  font-size: 0;
 }
 
-.h-list {
-    border-radius: 10px;
-    height: 80px;
-    margin-bottom: 50px;
+.icon {
+  font-size: 23px;
+  vertical-align: bottom;
+  display: inline-block;
+  padding: 17px 55px;
+  background: rgb( 29, 161, 242);
+  box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-/* CSS覗き込むのやめてください！！ */
-
-.h-title {
-    margin: 30px;
-    font-family: "Noto Sans JP";
-    font-weight: 700;
-    font-size: 70px;
-    letter-spacing: 1.3px;
-}
-
-
-.sentence {
-    letter-spacing: 0.03em;
-    font-size: 23px;
-    margin-left: 40px;
-    font-family: "Noto Sans JP";
-    font-weight: 400;
-}
-
-.space {
-    height: 30px;
-}
-
-.dan {
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 16px;
-    background: #e1e6f0;
-    box-shadow:  5px 5px 20px #bfc4cc,
-                 -5px -5px 20px #ffffff;
-    margin: 30px 50px 40px 40px;
-    font-family: "Noto Sans JP";
-    font-weight: 500;
+.shitama {
+  margin: 40px 0px 10px 40px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .twitter-timeline {
-    margin-left: 40px;
+  margin-left: 40px;
+  width: 90% !important;
 }
 
-.right {
-    float: left;
-    margin-top: 40px;
+.sentence {
+  font-size: 22px;
+  padding: 15px 40px;
 }
 
-.button:hover {
-    box-shadow: 3px 3px 6px 1px rgb(216, 220, 230) inset,
-                -3px -3px 6px 1px rgba(255,255,255,0.5) inset;
+.twitter-timeline{
+  margin-top: 20px;
+}
+
+#joseiki {
+  border-radius: 10px;
+  background: white;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 10px;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.18 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.イチモツ {
+  margin-top: 20px;
+}
+
+.fa-brands {
+  font-size: 1.6em;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+ .box {
+   margin: 0px 5% 0px 5%;
+ }
+ .sackey {
+   padding: 12.5px;
+   height: 90px;
+   width: 90px;
+ }
+.name {
+  font-size: 25px;
+  margin-top: 37.5px;
+}
+.namenoshita {
+  font-size: 13.5px;
+}
+.explain {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.classname-ga-omoitsukanai {
+  height: 127.5px;
+}
+.button {
+  margin: 15px 0px 0px 20px;
+  font-size: 0;
+}
+.icon {
+  font-size: 11.5px;
+  padding: 13.5px 27.5px;
+}
+.twitter-timeline {
+  margin-left: 20px;
+  width: 90% !important;
+}
+.shitama {
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.fa-solid {
+  font-size: 0.4em;
+}
+.sentence {
+  font-size: 12.2px;
+  padding: 7.5px 20px;
+}
+#joseiki {
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+}
+
+
+
+
+.atutu {
+  margin: 500px;
+  animation:0.3s linear infinite rotation1;
+}
+@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
 }
