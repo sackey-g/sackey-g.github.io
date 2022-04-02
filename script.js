@@ -6,6 +6,16 @@ if (document.cookie === "access"){
 }
 document.cookie = "access";
 
+//オマ●コ〜〜♫ボタン
+document.getElementById("joseiki").onclick = function(omanko) {
+  if (document.cookie === "access"){
+    alert("あなたはこのサイトにアクセスしたことがあるので「オマ●コ〜〜♫」を見ることが出来ませ〜〜んあははっははwwwww＾＾＾＾＾＾＾");
+  } else {
+    alert("オマ●コ〜〜♫")
+  }
+  document.cookie = "access";
+};
+
 //Animon
 Animon.animon();
 
